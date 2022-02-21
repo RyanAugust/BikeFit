@@ -48,3 +48,33 @@ class tracking_point(object):
 
 	def get_current_location(self):
 		return self.current_location
+
+	def __repr__(self):
+		identifier = self.identifier
+		location = ', '.join(self.current_location)
+		rep = f"{identifier}: {location}"
+		return rep
+
+
+class tracking_management(object):
+	def __init__(self):
+		self.tracked_points = []
+		self.tracking_log = {}
+
+	def track_new_point(self, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
